@@ -1,0 +1,10 @@
+{
+  "name": "oneshot",
+  "artist": "nilla",
+  "stickers": {
+    "all": ["VanillaSticker" ,"GarbSticker"]
+  },
+  "stickerPacks": {
+    "all": ["all"]
+  }
+}

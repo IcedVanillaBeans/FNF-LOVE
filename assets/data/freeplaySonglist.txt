@@ -27,3 +27,5 @@ Thorns
 Ugh
 Guns
 Stress
+
+Angy

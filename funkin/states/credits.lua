@@ -5,8 +5,34 @@ local UserCard = require "funkin.ui.credits.usercard"
 
 -- would it be funny if the x renamed to twitter instead to mock elon musk
 CreditsState.defaultData = {
+  {
+		header = "Onshot Meow Team",
+		credits = {
+			{
+				name = "VanillaBeans",
+				icon = "Vanilla",
+				color = "#FFCA45",
+				description = "Main director, Artist, Programmer, Music",
+				social = {
+					{name = "Youtube",      text = "@Iced_VanillaBeans"},
+					{name = "Github", text = "/icedVanillaBeans"}
+				}
+			},
+			{
+				name = "Garby (gabrielcito)",
+				icon = "Garby",
+				color = "#FF4545",
+				description = "Main director, Programmer, ideas man",
+				social = {
+					{name = "X",       text = "@raltyro"},
+					{name = "Youtube", text = "@Raltyro"},
+					{name = "Github",  text = "/Raltyro"}
+				}
+			}
+		}
+	},
 	{
-		header = "Port contributors",
+		header = "Fnf: Love Team",
 		credits = {
 			{
 				name = "Stilic",
