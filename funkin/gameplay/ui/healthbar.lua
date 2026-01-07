@@ -5,7 +5,7 @@ function HealthBar:new(p1, p2, skin)
 
 	self.maxHealth = 2
 
-	self.bg = Sprite():loadTexture(paths.getImage("skins/default/healthBar"))
+	self.bg = Sprite():loadTexture(paths.getImage("skins/default/new_health"))
 	self.bg:updateHitbox()
 
 	self.bar = Bar(self.bg.x + 4, self.bg.y + 4,
@@ -26,7 +26,7 @@ function HealthBar:new(p1, p2, skin)
 	self.iconP2.y = y - self.iconP2.height / 2
 
 	self.bar.color = Color.fromHEX(0xFF66FF33)
-	self.bar.color.bg = Color.fromHEX(0xFFFF0000)
+	self.bar.color.bg = Color.fromHEX(0xBAB1B1)
 
 	self:add(self.iconP1)
 	self:add(self.iconP2)
